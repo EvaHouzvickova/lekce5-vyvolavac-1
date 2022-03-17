@@ -58,7 +58,9 @@ function tahnoutJmeno() {
     let pocetObeti = tazenaJmena.length;
     console.log(pocetObeti);
     pocitadlo.textContent = pocetObeti;
+    }
 
     //Přidej tlačítko na restartování vyvolávače
-    
-}
+    function restartVyvolavani() {
+        window.location.reload()
+    }
