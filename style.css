@@ -48,12 +48,14 @@ h2 {
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-#seznam {
+#seznam, 
+#pocitadlo {
 	font-size: 20px;
 	color: #3b518d;
 }
 
-.tlacitko {
+.tlacitko, 
+.tlacitkoRestart {
 	margin-top: -20px;
 	padding: 20px;
 	font-family: 'Paytone One', sans-serif;
@@ -66,12 +68,18 @@ h2 {
 	outline: 0;
 }
 
-.tlacitko:hover {
+.tlacitko:hover, 
+.tlacitkoRestart:hover {
 	box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
 	transform: translateY(-2px);
 }
 
-.tlacitko:active {
+.tlacitko:active, 
+.tlacitkoRestart:active {
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
 	transform: translateY(3px);
+}
+
+.tlacitkoRestart {
+	margin-top: 30px;
 }
